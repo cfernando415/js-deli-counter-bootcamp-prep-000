@@ -19,6 +19,6 @@ function currentLine(line) {
   if(line.length < 1 || line === undefined) {
     return "The line is currently empty.";
   } else {
-    return "The line is currently: " + tmp;
+    return "The line is currently:" + tmp;
   }
 }

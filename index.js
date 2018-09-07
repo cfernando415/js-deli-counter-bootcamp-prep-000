@@ -4,9 +4,10 @@ function takeANumber(katzDeli, name) {
 }
 function nowServing(katzDeliLine) {
   if(katzDeliLine.length < 1 || katzDeliLine === undefined) {
+    return "There is nobody waiting to be served!";
+  } else {
     
-  } 
-  
+  }
 }
 
 function currentLine(line) {

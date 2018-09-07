@@ -13,7 +13,7 @@ function nowServing(katzDeliLine) {
 function currentLine(line) {
   var tmp = [];
   for (let i = 0; i < line.length; i++) {
-    tmp.push((i + 1) + ". " + line[i]);
+    tmp.push(" " + (i + 1) + ". " + line[i]) + " ";
   }
   
   if(line.length < 1 || line === undefined) {

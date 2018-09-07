@@ -14,6 +14,6 @@ function currentLine(line) {
   if(line.length < 1 || line === undefined) {
     return "The line is currently empty.";
   } else {
-    
+    return "The line is currently: " + line.indexOf()
   }
 }
